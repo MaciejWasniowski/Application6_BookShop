@@ -1,14 +1,6 @@
 """
 A program that stores this book information
 Title, Author, Year, ISBN
-
-User can:
-View all records
-Search entry
-Add entry
-Update entry
-Delete
-Close
 """
 
 from tkinter import *
@@ -44,5 +36,6 @@ e3.grid(row=0, column=3)
 isbn_text = StringVar()
 e4 = Entry(window, textvariable=isbn_text)
 e4.grid(row=1, column=3)
+
 
 window.mainloop()
